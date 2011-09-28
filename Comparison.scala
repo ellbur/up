@@ -1,3 +1,6 @@
+
+package up
+
 sealed trait Comparison {
 	type gt <: Bool
 	type ge <: Bool

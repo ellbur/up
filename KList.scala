@@ -1,4 +1,7 @@
-import HList.{:: => :+: }
+
+package up
+
+import HList.:+:
 import ~>._
 import KList._
 

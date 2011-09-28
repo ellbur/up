@@ -1,3 +1,6 @@
+
+package up
+
 object Test
 {
 	def main(args: Array[String])
@@ -10,3 +13,4 @@ object Test
 		TypedMapTest.run()
 	}
 }
+

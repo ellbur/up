@@ -1,3 +1,6 @@
+
+package up
+
 sealed trait Bool {
 	type If[T <: Up, F <: Up, Up] <: Up
 }

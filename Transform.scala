@@ -1,3 +1,6 @@
+
+package up
+
 trait ~>[-A[_], +B[_]] {
 	def apply[T](a: A[T]): B[T]
 }

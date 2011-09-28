@@ -1,3 +1,6 @@
+
+package up
+
 trait Unzip[H <: HList, R1 <: HList, R2 <: HList] {
 	def unzip(h: H): (R1, R2)
 }

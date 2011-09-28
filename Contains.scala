@@ -1,4 +1,7 @@
-import HList._
+
+package up
+
+import HList.{:+: => ::}
 
 sealed trait Contained[HL <: HList, A]
 sealed trait NotContained[HL <: HList, A]

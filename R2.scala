@@ -1,3 +1,6 @@
+
+package up
+
 trait Recurse {
 	type Next <: Recurse
 	type X[R <: Recurse] <: Int

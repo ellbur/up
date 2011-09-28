@@ -1,3 +1,6 @@
+
+package up
+
 sealed trait Triple[+A, +B, +C] {
 	type _1 <: A
 	type _2 <: B

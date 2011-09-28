@@ -1,3 +1,6 @@
+
+package up
+
 sealed trait AList[+M[_]] {
 	type Fun[R]
 	def apply0[R, N[X] >: M[X] ](f: N[Fun[R]])(implicit app: Apply[N]): N[R]

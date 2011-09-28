@@ -1,4 +1,6 @@
 
+package up
+
 // workaround for kind conformance error
 trait Fold[-Elem, Value] {
 	type Apply[N <: Elem, Acc <: Value] <: Value

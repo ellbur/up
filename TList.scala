@@ -1,4 +1,8 @@
+
+package up
+
 import TList._
+
 sealed trait TList
 {
 	type Head <: Value

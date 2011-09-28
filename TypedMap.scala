@@ -1,3 +1,6 @@
+
+package up
+
 // a basic map that allows type-safe heterogeneous mapping
 abstract class TypeMap
 {

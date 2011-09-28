@@ -1,5 +1,7 @@
 
-	import Dense._
+package up
+
+import Dense._
 
 trait Pali {
 	type Result = Triple[Dense, Dense, Dense]

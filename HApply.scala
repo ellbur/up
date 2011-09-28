@@ -1,4 +1,7 @@
-import HList.::
+
+package up
+
+import HList.:+:
 
 trait HApplyOps
 {
@@ -7,7 +10,7 @@ trait HApplyOps
 		
 	implicit def happlyCons[InH, OutH, TF <: HList, TIn <: HList, TOut <: HList]
 		(implicit applyTail: TF => TIn => TOut):
-			((InH => OutH) :: TF) => ( (InH :: TIn) => (OutH :: TOut) ) = h => 
+			((InH => OutH) :+: TF) => ( (InH :+: TIn) => (OutH :+: TOut) ) = h =>
 			
 		in =>	HCons( h.head(in.head), applyTail(h.tail)(in.tail) )
 		

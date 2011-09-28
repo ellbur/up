@@ -1,3 +1,6 @@
+
+package up
+
 import Dense._
 
 sealed trait Dense {

@@ -1,3 +1,6 @@
+
+package up
+
 import Bool._
 import Dense._
 import Comparison._

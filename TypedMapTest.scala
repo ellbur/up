@@ -1,4 +1,6 @@
 
+package up
+
 final class MyTypeMap extends TypeMap
 {
 	// define allowed mappings
